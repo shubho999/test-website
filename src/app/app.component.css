@@ -1,0 +1,158 @@
+.back-blue {
+  position: absolute;
+  width: 1.1%;
+  height: 20%;
+  top: 0;
+  right: -13.9px;
+  background-image: linear-gradient(180deg, #0F52BA, rgba(0, 128, 255, 0.6));
+}
+
+#welcome-page {
+  background-image: linear-gradient(90deg, rgba(32, 32, 48, 0.9) 100%, rgba(32, 32, 48, 0.9) 45%, transparent 45%),
+  url(../assets/images/welcome-page.jpg);
+  width: 99%;
+  height: 100%;
+  position: relative;
+  background-size: 100% 100%;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+
+.welcome-text {
+  width: 51%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-85%, 0%);
+}
+
+span {
+  color: white;
+}
+
+.align {
+  width: 50%;
+  padding: 6.5%;
+}
+
+#service-page {
+  background-image: linear-gradient(25deg, rgba(0, 114, 255, 1), rgba(0, 128, 255, 0.8), rgba(0, 114, 255, 1));
+  width: 99%;
+  height: auto;
+  padding: 6.5%;
+}
+#service-page p {
+  color: #56c4d3;
+}
+/*2A2D34
+rgba(0, 79, 249, 0.8)*/
+.example-stretched-tabs {
+  max-width: 100%;
+}
+
+.mat-tab-label {
+  background-color: transparent;
+  color: white;
+  border-bottom: 2px solid;
+}
+
+/* Styles for the active tab label */
+.mat-tab-label.mat-tab-label-active {
+  background-color: transparent;
+  color: white;
+  border-bottom: 2px solid;
+}
+
+/* Styles for the ink bar */
+.mat-ink-bar {
+  background-color: white;
+}
+
+.service-icon {
+  color: white;
+  font-size: 225px;
+}
+
+.client-page {
+  background-image: url("../assets/images/noise.jpg");
+  width: 99%;
+  height: auto;
+  padding: 4% 6.5%;
+}
+
+.client-page p{
+  color: darkgray;
+}
+
+.client-page h3 {
+  color: #736F72;
+}
+
+#about-page,#get-in-touch {
+  width: 99%;
+}
+
+.about-image {
+  background-image: url(../assets/images/men.jpg);
+  width: 50%;
+  background-position-y: 60%;
+  background-size: 100% 130%;
+  background-repeat: no-repeat;
+}
+
+.thank-you-text {
+  background-image: linear-gradient(60deg, rgba(0, 128, 255, 0.8), rgba(0, 114, 255, 1), rgba(0, 128, 255, 0.8));
+  padding: 4% 6.5%;
+}
+
+.footer {
+  width: 99%;
+  padding: 4% 5.5%;
+  background: #000000;
+}
+
+.margin {
+  margin-top: 0;
+}
+
+.align1 {
+  width: 50%;
+  padding: 8% 6.5%;
+  height: max-content;
+}
+
+.get-insta {
+  position: absolute;
+  top: 10%;
+  right: 5%;
+  cursor: pointer;
+}
+
+.big-data {
+  width: 50%;
+  transform: rotate(180deg);
+  height: 100%;
+  left: 0;
+  position: absolute;
+}
+
+.contact-icon {
+  margin-right: 5px;
+  color: white;
+  transition: color .5s;
+}
+
+.contact-icon:hover {
+  color: rgba(0, 128, 255, 0.8) ;
+}
+
+.footer h1 {
+  color: darkgray;
+}
+
+.creat-text {
+  margin-bottom: 15px;
+  font-size: 16px;
+  color: white;
+  font-style: italic;
+}
